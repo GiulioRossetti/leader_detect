@@ -1,4 +1,4 @@
-# leader_detect
+# Leader Detect
 The Three Dimensions of Social Prominence
 
 Leader Detect is an algorithm that takes as input a social network and a table of actions performed by the people in the social networks and returns for each action the list of leaders and some statistics of their “tribe”, i.e. the set of people they influenced. This algorithm comes from the paper “The Three Dimensions of Social Prominence”, published at the International Conference of Social Informatics.
@@ -23,7 +23,7 @@ To run the algorithm simply put all the files in the same folder and type in the
  python main.py 
 NB: File paths are hard coded in main.py, as well as the parameters values (delta and beta, the damping factor). To use the algorithm for your purposes simply use the same filename and/or modify them from the sources as well as the parameters.
 
-File(s) Format:
+# File(s) Format:
 
 The output file has 7 columns, separated by the token “::” (without quotes).
 
